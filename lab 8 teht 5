@@ -1,0 +1,11 @@
+import random
+coutn = 0
+Lottonumeort = []
+
+def lotto():
+    global coutn
+    while coutn <= 6:
+        Lottonumeort.append(random.randrange(1,40))
+        coutn += 1
+    print(Lottonumeort)
+lotto()
